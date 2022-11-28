@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/19161231/80490865-f2d26680-899c-11ea-9743-9a8d15d6e381.png)
 
-## Welcome to NetworkFileExplorer project!
+## Welcome to NetworkFileExplorer(네트워크 파일 탐색기) project!
 
 ### What Is It?
 
@@ -18,6 +18,9 @@ The NetworkFileExplorer is a cross platform web explorer project that allows you
 This project was implemented based on Java asynchronous non-blocking socket channel(`AsynchronousSocketChannel`, `AsynchronousServerSocketChannel`). 
 
 `AsynchronousSocketChannel` and `AsynchronousServerSocketChannel` work as an `IOCP` in a Windows and as an `epoll` in a Linux.
+
+네트워크 파일 탐색기는 크로스 플랫폼을 지원하는 윈도우에 있는 파일탐색기느낌의 웹 탐색기 프로젝트입니다.
+비동기 `AsynchronousSocketChannel`을 사용하여 클라이언트들의 드라이브를 어드민 페이지에서 탐색 할 수 있습니다.
 
 #### Demo screenshot
 
