@@ -61,14 +61,14 @@ docker run -v ${PWD}:/app -p 8080:8080 --rm -it network-file-explorer-server:dev
 ### Front build
 
 ```bash
-cd .\Front\AdminPage\
+cd .\Front\
 docker build -t network-file-explorer-front:dev .
 ```
 
 ### Front run
 
 ```bash
-docker run -v ${PWD}:/app -v ./app/node_modules -p 3000:3000 --rm -it network-file-explorer-front:dev
+docker run -v ${PWD}:/app -v /app/node_modules -p 3000:3000 --rm -it network-file-explorer-front:dev
 ```
 
 ### Client run
@@ -136,7 +136,7 @@ This protocol is used to send with receive server and clients
 
 <br/> 
 
-<a href="mailto:dydtjr1994@gmail.com" target="_blank">
+<a href="mailto:dydtjr1128@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/E--mail-Yongseok%20choi-yellow.svg">
 </a>
 <a href="https://dydtjr1128.github.io/" target="_blank">
